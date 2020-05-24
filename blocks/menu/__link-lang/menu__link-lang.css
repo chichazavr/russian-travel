@@ -2,5 +2,10 @@
 
 
 .menu__link-lang {
-    
+    text-decoration: none;
+    color: white;
+}
+
+.menu__link-lang:first-of-type {
+    text-decoration: underline;
 }
