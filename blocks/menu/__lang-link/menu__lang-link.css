@@ -1,12 +1,12 @@
 
 
 
-.menu__link-lang {
+.menu__lang-link {
     text-decoration: none;
     color: white;
 }
 
-.menu__link-lang:first-of-type {
+.menu__lang-link:first-of-type {
     text-decoration: underline;
     margin-right: 18px;
 }
