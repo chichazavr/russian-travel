@@ -8,4 +8,5 @@
 
 .menu__link-lang:first-of-type {
     text-decoration: underline;
+    margin-right: 18px;
 }
