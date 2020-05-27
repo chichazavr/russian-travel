@@ -2,5 +2,10 @@
 
 
 .place__paragraph {
-    
+    margin: 0;
+    width: 484px;
+    height: auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
 }

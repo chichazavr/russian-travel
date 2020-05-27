@@ -2,5 +2,10 @@
 
 
 .intro__text {
-
+    margin: 0;
+    width: 690px;
+    height: 208px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }

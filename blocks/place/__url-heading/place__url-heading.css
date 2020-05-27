@@ -2,5 +2,10 @@
 
 
 .place__url-heading {
-    
+    margin: 0;
+    width: 456px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #AAAAAA;
 }

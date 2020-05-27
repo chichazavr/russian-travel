@@ -2,5 +2,11 @@
 
 
 .cover__subtitle {
-    
+    margin: 0;
+    width: 360px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
 }

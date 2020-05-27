@@ -2,5 +2,10 @@
 
 
 .place__title {
-    
+    margin: 0;
+    width: 460px;
+    height: 152px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
 }
