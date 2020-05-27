@@ -1,11 +1,21 @@
 
-
+@import url(./__logo/header__logo.css);
+@import url(./__lang-links/header__lang-links.css);
+@import url(./__lang-link/header__lang-link.css);
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 28px;
     margin-left: 48px;
     margin-right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

@@ -3,5 +3,6 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-
+    margin-bottom: 24px;
+    margin-top: 92px;
 }

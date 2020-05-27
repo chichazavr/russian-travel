@@ -4,5 +4,6 @@
 @import url(./__list/intro__list.css);
 
 .intro {
-
+    margin: auto;
+    width: 984px;
 }
