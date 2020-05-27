@@ -8,3 +8,28 @@
     background-image: url(../../../images/lead-polka.jpg);
     background-size: cover;
 }
+
+@media (min-width : 1280px) {
+
+}
+
+@media (max-width : 1024px) {
+    .lead__image {
+        width: 90.625vw;
+        height: 56.641vw;
+    }
+}
+
+@media (max-width : 768px) {
+    .lead__image {
+        width: 100%;
+        height: 56.641vw;
+    }
+}
+
+@media (max-width : 425px) {
+    .lead__image {
+        width: 100%;
+        height: 200px;
+    }
+}

@@ -4,11 +4,20 @@
 .lead__subtitle {
     margin: 0;
     margin-top: 32px;
-    width: 640px;
-    height: 72px;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
     color: white;
     text-align: center;
+}
+
+@media (max-width : 768px) {
+    .lead__subtitle{
+        font-size: 3.9vw;
+    }
+}
+
+@media (max-width : 425px) {
+    .lead__subtitle {
+        font-size: 16px;
+    }
 }
