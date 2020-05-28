@@ -2,5 +2,11 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-
+    margin: 0 auto;
+    margin-top: 92px;
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-gap: 16px;
+    justify-content: center;
 }

@@ -6,4 +6,11 @@
 .intro {
     margin: auto;
     width: 984px;
+    margin-top: 92px;
+}
+
+@media (max-width : 1024px) {
+    .intro {
+        width: 90.625vw;
+    }
 }
