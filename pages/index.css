@@ -17,6 +17,6 @@
 @import url(../blocks/footer/footer.css);
 
 
-div, footer, main, section, p, h1, h2, h3, a, span, body, header, img, nav, ul, li {
+div, footer, main, article, section, p, h1, h2, h3, a, span, body, header, img, nav, ul, li {
   border: 1px solid #00FF7F;
 }

@@ -3,15 +3,30 @@
 
 .place__paragraph {
     margin: 0;
-    width: 484px;
+    max-width: 484px;
     height: auto;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    grid-row: 2/3;
-    grid-column: 2/3;
 }
 
 .place__paragraph:last-of-type {
     margin-top: 24px;
+}
+
+@media (max-width : 1024px) {
+
+}
+
+@media (max-width : 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width : 425px) {
+    .place__paragraph {
+        margin-left: 16px;
+    }
 }
