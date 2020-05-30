@@ -4,4 +4,6 @@
 .place__image {
     width: 460px;
     height: 460px;
+    grid-row: 2/3;
+    grid-column: 1/2;
 }

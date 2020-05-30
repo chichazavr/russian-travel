@@ -5,5 +5,10 @@
 @import url(./__background/cover__background.css);
 
 .cover {
+    margin: auto;
     margin-top: 92px;
+    display: grid;
+    grid-template-columns: 1fr 560px 1fr;
+    grid-template-rows: repeat(3, 1fr);
 }
+

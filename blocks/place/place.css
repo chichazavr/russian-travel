@@ -8,5 +8,15 @@
 
 
 .place {
+    margin: 0 ;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 152px 1fr;
+    grid-gap: 48px 40px;
+}
 
+.place:last-of-type {
+    margin-bottom: 0;
+    
 }

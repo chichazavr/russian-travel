@@ -2,5 +2,15 @@
 
 
 .cover__overlay {
+    width: 1184px;
+    height: 740px;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+}
 
+.cover__overlay:hover {
+    opacity: 0.8;
 }

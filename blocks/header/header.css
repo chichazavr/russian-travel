@@ -4,18 +4,21 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
-    margin-top: 28px;
-    margin-left: 48px;
-    margin-right: 48px;
+    padding: 28px 48px 0;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .header {
-        margin-top: 16px;
-        margin-left: 16px;
-        margin-right: 16px;
+        padding: 16px 16px 0;
     }
 }

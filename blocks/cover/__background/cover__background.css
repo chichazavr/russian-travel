@@ -4,5 +4,7 @@
 .cover__background {
     width: 1184px;
     height: 740px;
-    position: relative;
+    z-index: -1;
+    grid-column: 1/4;
+    grid-row: 1/4;
 }

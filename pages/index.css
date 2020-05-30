@@ -7,8 +7,6 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/menu/menu.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -22,5 +20,3 @@
 div, footer, main, section, p, h1, h2, h3, a, span, body, header, img, nav, ul, li {
   border: 1px solid #00FF7F;
 }
-*/
-

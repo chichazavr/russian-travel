@@ -2,17 +2,24 @@
 
 
 .lead__subtitle {
-    margin: 0;
-    margin-top: 32px;
-    font-weight: 400;
+    margin: 0 auto;
+
+    max-width: 640px;
+    max-height: 72px;
+
     font-size: 30px;
-    color: white;
+    line-height: 36px;
+    font-weight: 400;
+    
     text-align: center;
+
+    margin-top: 32px;
 }
 
 @media (max-width : 768px) {
     .lead__subtitle{
         font-size: 3.9vw;
+        line-height: inherit;
     }
 }
 

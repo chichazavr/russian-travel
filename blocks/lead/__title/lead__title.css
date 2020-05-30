@@ -2,23 +2,27 @@
 
 
 .lead__title {
-    margin: 0;
-    margin-top: 56px;
+    margin: 0 auto;
+
+    max-width: 720px;
+    max-height: 200px;
+
     font-size: 96px;
-    line-height: 1.15;
+    line-height: 100px;
     font-weight: 900px;
-    color: white;
+
     text-align: center;
 }
 
 @media (max-width : 768px) {
     .lead__title {
         font-size: 12.5vw;
+        line-height: inherit;
     }
 }
 
 @media (max-width : 425px) {
     .lead__title {
-        font-size: 44px;
+        font-size: 40px;
     }
 }
