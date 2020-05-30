@@ -5,3 +5,45 @@
     width: 284px;
     height: 213px;
 }
+
+@media (max-width : 1205px) {
+    .photo-grid__item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width : 1024px) {
+    .photo-grid__item {
+        width: 300px;
+        height: 225px;
+    }
+}
+
+@media (max-width : 955px) {
+    .photo-grid__item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width : 768px) {
+    .photo-grid__item {
+        width: 352px;
+        height: 264px;
+    }
+}
+
+@media (max-width : 740px) {
+    .photo-grid__item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width : 425px) {
+    .photo-grid__item {
+        width: 288px;
+        height: 216px;
+    }
+}
