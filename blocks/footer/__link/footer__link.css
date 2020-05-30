@@ -3,12 +3,18 @@
 
 .footer__link {
     margin: 0;
-    width: 57px;
-    height: 18px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: white;
     text-decoration: none;
+
     margin-right: 18px;
+}
+
+@media  (max-width: 425px) {
+    .footer__link {
+        margin-top: 20px;
+    }
 }

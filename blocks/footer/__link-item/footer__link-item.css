@@ -1,0 +1,14 @@
+
+
+
+.footer__link-item {
+    color: white;
+    text-decoration: none;
+}
+
+@media  (max-width: 425px) {
+    .footer__link-item{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
