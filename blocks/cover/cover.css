@@ -2,13 +2,27 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
-@import url(./__background/cover__background.css);
 
 .cover {
-    margin: auto;
+    margin: 0 auto;
+
+    max-width: 1184px;
+    max-height: 740px;
+
+    position: relative;
+
     margin-top: 92px;
-    display: grid;
-    grid-template-columns: 1fr 560px 1fr;
-    grid-template-rows: repeat(3, 1fr);
 }
 
+@media (max-width : 768px) {
+    .cover {
+        margin-top: 88px;
+        
+    }
+}
+
+@media (max-width : 425px) {
+    .cover {
+        margin-top: 64px;
+    }
+}
