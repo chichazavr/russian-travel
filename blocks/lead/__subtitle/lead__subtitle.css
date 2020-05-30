@@ -18,6 +18,8 @@
 
 @media (max-width : 768px) {
     .lead__subtitle{
+        width: 80%;
+
         font-size: 3.9vw;
         line-height: inherit;
     }
@@ -25,6 +27,11 @@
 
 @media (max-width : 425px) {
     .lead__subtitle {
+        width: 288px;
+
         font-size: 16px;
+        line-height: 20px;
+
+        margin-top: 16px;
     }
 }
