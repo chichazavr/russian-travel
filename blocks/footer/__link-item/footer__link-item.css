@@ -4,5 +4,8 @@
 .footer__link-item {
     color: white;
     text-decoration: none;
+    transition: opacity 0.35s;
 }
 
+.footer__link-item:hover {
+    opacity: 0.5;

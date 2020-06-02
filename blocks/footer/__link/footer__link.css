@@ -11,10 +11,18 @@
     text-decoration: none;
 
     margin-right: 18px;
+
 }
 
-@media  (max-width: 425px) {
+.footer__link:last-of-type {
+    margin: 0;
+}
+
+
+@media  (max-width: 490px) {
     .footer__link {
-        margin-top: 20px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

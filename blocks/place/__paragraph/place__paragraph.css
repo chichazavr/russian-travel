@@ -3,7 +3,6 @@
 
 .place__paragraph {
     margin: 0;
-    max-width: 484px;
     height: auto;
     font-weight: 400;
     font-size: 18px;
@@ -27,6 +26,7 @@
 
 @media (max-width : 425px) {
     .place__paragraph {
-        margin-left: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

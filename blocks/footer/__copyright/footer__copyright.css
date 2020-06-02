@@ -3,8 +3,16 @@
 
 .footer__copyright {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 16px;
     color: white;
     text-decoration: none;
+}
+
+@media  (max-width: 490px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 48px;
+    }
 }
