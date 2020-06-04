@@ -1,5 +1,5 @@
 
-
+@import url(./_active/header__lang-link_active.css);
 
 .header__lang-link {
     margin: 0;
@@ -8,10 +8,11 @@
     text-align: right;
     text-decoration: none;
     color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
 .header__lang-link:first-of-type {
-    text-decoration: underline;
     margin-right: 18px;
 }
 

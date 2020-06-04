@@ -17,10 +17,13 @@
     justify-content: center;
 
     text-decoration: none;
+    
 }
+
 
 .cover__overlay:hover {
     opacity: 0.8;
+    
 }
 
 .cover__overlay::before {
@@ -34,6 +37,8 @@
     top: 0;
 
     background-color: #2A2C2F;
+
+    transition: opacity 0.35s;
 
     opacity: 0.3;
 }

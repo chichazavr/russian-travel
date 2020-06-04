@@ -17,7 +17,7 @@
     z-index: 2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .cover__subtitle {
         max-width: 80%;
 

@@ -3,4 +3,7 @@
 
 .header__lang-links {
     margin-top: 5px;
+    padding: 0;
+    display: flex;
+    list-style: none;
 }
