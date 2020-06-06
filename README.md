@@ -2,18 +2,15 @@
 
 # проект 3: путешествие по России
 [посмотреть на github pages](https://chichazavr.github.io/russian-travel/)
+[посмотреть на github pages](https://chichazavr.github.io/russian-travel/)
+[посмотреть на github pages](https://chichazavr.github.io/russian-travel/)
 
-
-### обзор
-* интро
-* использованные технологии
-
-**интро**
+### интро
 
 * это моя третья проектная работа в яндекс.практикуме
 * сайт о путешествии в россии
 
-**использованные технологии**
+### использованные технологии
 
 * flexbox
 * grid
