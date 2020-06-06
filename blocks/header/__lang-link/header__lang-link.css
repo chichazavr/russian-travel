@@ -1,5 +1,5 @@
 
-@import url(./_active/header__lang-link_active.css);
+
 
 .header__lang-link {
     margin: 0;
@@ -9,7 +9,11 @@
     text-decoration: none;
     color: white;
     list-style: none;
-    text-decoration: none;
+    transition: opacity 0.35s;
+}
+
+.header__lang-link:hover {
+    opacity: 0.5;
 }
 
 .header__lang-link:first-of-type {
@@ -22,3 +26,4 @@
         line-height: 24px;
     }
 }
+

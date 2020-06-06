@@ -7,13 +7,12 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 24px;
 }
 
-
-.place__paragraph:nth-child(2) {
-    margin-top: 20px;
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
 }
-
 
 @media (max-width : 768px) {
     .place__paragraph {

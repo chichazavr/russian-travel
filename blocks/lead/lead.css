@@ -4,11 +4,12 @@
 @import './__caption/lead__caption.css';
 
 .lead {
-  padding: 56px 148px 0;
+  margin: 0 auto;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #FFFFFF;
+  padding-top: 56px;
 }
 
 @media (max-width: 1024px) {

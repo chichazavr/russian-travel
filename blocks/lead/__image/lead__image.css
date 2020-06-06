@@ -1,11 +1,10 @@
+
+
+
 .lead__image {
-  width: 100%;
-  padding-bottom: calc(100% / 1.6);
-  background-image: url(../../../images/lead-polka.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  object-fit: contain;
   margin-top: 64px;
-  position: relative;
+  width: 100%;
 }
 
 @media (max-width: 1024px) {

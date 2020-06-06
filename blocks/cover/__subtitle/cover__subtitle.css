@@ -15,17 +15,30 @@
     color: #FFFFFF;
 
     z-index: 2;
+
+    margin-bottom: 245px;
+}
+
+@media (max-width: 1024px) {
+    .cover__subtitle {
+        margin-bottom: 195px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+        margin-bottom: 115px;
+    }
 }
 
 @media (max-width: 700px) {
     .cover__subtitle {
         max-width: 80%;
 
-        margin: 16px 0 0;
+        margin-top: 16px;
 
         font-size: 2.5vw;
         line-height: normal;
-
     }
 }
 
@@ -35,5 +48,11 @@
         
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        margin-bottom: 33px;
     }
 }
