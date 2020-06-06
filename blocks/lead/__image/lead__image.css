@@ -1,0 +1,20 @@
+
+
+
+.lead__image {
+  object-fit: contain;
+  margin-top: 64px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}
