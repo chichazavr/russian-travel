@@ -1,9 +1,9 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/63846788/81522850-f5629200-9386-11ea-8a15-970eb0e49a4b.png" width="300"></p>
 
 # проект 3: путешествие по России
+
 [посмотреть на github pages](https://chichazavr.github.io/russian-travel/)
-[посмотреть на github pages](https://chichazavr.github.io/russian-travel/)
-[посмотреть на github pages](https://chichazavr.github.io/russian-travel/)
+
 
 ### интро
 
