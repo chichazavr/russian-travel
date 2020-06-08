@@ -36,7 +36,6 @@
 
 @media (max-width : 700px) {
     .place {
-        grid-gap: 48px 28px;
         grid-template-columns: 1fr;
     }
 }

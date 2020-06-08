@@ -17,7 +17,7 @@
 }
 
 .header__lang-link:first-of-type {
-    margin-right: 18px;
+    padding-right: 18px;
 }
 
 @media screen and (max-width: 425px) {

@@ -61,9 +61,3 @@
     }
 }
 
-@media (max-width: 425px) {
-    .cover__overlay {
-        width: 100%;
-        max-height: 200px;
-    }
-}
